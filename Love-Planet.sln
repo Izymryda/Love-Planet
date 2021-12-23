@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Love-Planet", "Love-Planet\Love-Planet.csproj", "{DB5F251E-C834-4487-B556-E5A29AB78362}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FDFDA994-8751-4F32-A3B5-A3471F2A53E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovePlanet.Domain.Core", "LovePlanet.Domain.Core\LovePlanet.Domain.Core.csproj", "{5856C988-AF05-4C89-B98E-A1A588706F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovePlanet.Domain.Interfaces", "LovePlanet.Domain.Interfaces\LovePlanet.Domain.Interfaces.csproj", "{809668F4-9234-418B-A20D-3D90FF119F6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,21 @@ Global
 		{DB5F251E-C834-4487-B556-E5A29AB78362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5F251E-C834-4487-B556-E5A29AB78362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5F251E-C834-4487-B556-E5A29AB78362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5856C988-AF05-4C89-B98E-A1A588706F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5856C988-AF05-4C89-B98E-A1A588706F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5856C988-AF05-4C89-B98E-A1A588706F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5856C988-AF05-4C89-B98E-A1A588706F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809668F4-9234-418B-A20D-3D90FF119F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809668F4-9234-418B-A20D-3D90FF119F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809668F4-9234-418B-A20D-3D90FF119F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809668F4-9234-418B-A20D-3D90FF119F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5856C988-AF05-4C89-B98E-A1A588706F18} = {FDFDA994-8751-4F32-A3B5-A3471F2A53E2}
+		{809668F4-9234-418B-A20D-3D90FF119F6C} = {FDFDA994-8751-4F32-A3B5-A3471F2A53E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8D70640-C5E2-4662-8E83-451CFDD3EFCA}
