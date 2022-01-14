@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LovePlanet.Domain.Core
 {
-    class Relations
+    public class Relations
     {
         public int Id { get; set; }
         public string Name { get; set; }
