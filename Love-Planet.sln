@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{57
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovePlanet.Services.Interfaces", "LovePlanet.Services.Interfaces\LovePlanet.Services.Interfaces.csproj", "{B2432534-60D3-4161-BF51-A2892F6C57AF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1930CCFE-A121-44DD-9DC1-F983D724007F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovePlanet.Infrastructure.Data", "LovePlanet.Infrastructure.Data\LovePlanet.Infrastructure.Data.csproj", "{9C38EFBF-74A1-4814-96DC-06EC039729A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{B2432534-60D3-4161-BF51-A2892F6C57AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2432534-60D3-4161-BF51-A2892F6C57AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2432534-60D3-4161-BF51-A2892F6C57AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C38EFBF-74A1-4814-96DC-06EC039729A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C38EFBF-74A1-4814-96DC-06EC039729A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C38EFBF-74A1-4814-96DC-06EC039729A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C38EFBF-74A1-4814-96DC-06EC039729A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +53,7 @@ Global
 		{5856C988-AF05-4C89-B98E-A1A588706F18} = {FDFDA994-8751-4F32-A3B5-A3471F2A53E2}
 		{809668F4-9234-418B-A20D-3D90FF119F6C} = {FDFDA994-8751-4F32-A3B5-A3471F2A53E2}
 		{B2432534-60D3-4161-BF51-A2892F6C57AF} = {57198A14-2F11-46AB-BE62-E7071D36D4DF}
+		{9C38EFBF-74A1-4814-96DC-06EC039729A3} = {1930CCFE-A121-44DD-9DC1-F983D724007F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8D70640-C5E2-4662-8E83-451CFDD3EFCA}
