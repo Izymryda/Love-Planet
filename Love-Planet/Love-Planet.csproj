@@ -180,6 +180,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LovePlanet.Domain.Core\LovePlanet.Domain.Core.csproj">
+      <Project>{5856c988-af05-4c89-b98e-a1a588706f18}</Project>
+      <Name>LovePlanet.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LovePlanet.Domain.Interfaces\LovePlanet.Domain.Interfaces.csproj">
+      <Project>{809668f4-9234-418b-a20d-3d90ff119f6c}</Project>
+      <Name>LovePlanet.Domain.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LovePlanet.Services.Interfaces\LovePlanet.Services.Interfaces.csproj">
+      <Project>{b2432534-60d3-4161-bf51-a2892f6c57af}</Project>
+      <Name>LovePlanet.Services.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
