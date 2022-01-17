@@ -1,5 +1,4 @@
-﻿using System;
-using LovePlanet.Domain.Core;
+﻿using LovePlanet.Domain.Core;
 
 namespace LovePlanet.Services.Interfaces
 {

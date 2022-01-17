@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LovePlanet.Domain.Core
+﻿namespace LovePlanet.Domain.Core
 {
     public class Relations
     {

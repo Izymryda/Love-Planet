@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LovePlanet.Infrastructure.Data
+namespace Test
 {
     public class Class1
     {

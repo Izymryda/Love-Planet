@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using LovePlanet.Domain.Core;
 
 namespace LovePlanet.Domain.Interfaces

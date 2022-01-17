@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LovePlanet.Domain.Core
+﻿namespace LovePlanet.Domain.Core
 {
     //Domen Model layer
     public class People
