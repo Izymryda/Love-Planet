@@ -7,13 +7,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LovePlanet.Infrastructure.Data
 {
-    class PeopleRepository : IPeopleRepository
+    public class PeopleRepository : IPeopleRepository
     {
-        private Rel_of_pepContext db;
+        private PepopleContext db;
 
         public PeopleRepository()
         {
-            this.db = new Rel_of_pepContext();//при создании нового екз класа PeopleRepository будет создан новый екз класа Rel_of_pepContext
+            this.db = new PepopleContext();//при создании нового екз класа PeopleRepository будет создан новый екз класа PeopleContext
         }
 
         public IEnumerable<People> GetPeoplesList()

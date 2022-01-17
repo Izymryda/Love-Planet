@@ -4,9 +4,9 @@ using LovePlanet.Domain.Core;
 
 namespace LovePlanet.Infrastructure.Data
 {
-    public class Rel_of_pepContext : DbContext
+    public class RelationsContext : DbContext
     {
-        public DbSet<People> Peoples_s { get; set; }
+        //public DbSet<People> Peoples_s { get; set; }
         public DbSet<Relations> Relations_s { get; set; }//? i`m not shure, but have a try
     }
 }
